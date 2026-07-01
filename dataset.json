@@ -1,0 +1,11 @@
+[
+  {
+    "task": "Write a Python function that extracts the AWS account ID from an ARN string. The function should take an ARN like 'arn:aws:s3:::my-bucket' or 'arn:aws:ec2:us-east-1:123456789012:instance/i-1234567890abcdef0' and return the 12-digit account ID if present, or None if not found."
+  },
+  {
+    "task": "Create a JSON object that represents an AWS Lambda environment variables configuration. Include variables for a database connection string, API endpoint URL, and a feature flag boolean, following AWS Lambda's expected format."
+  },
+  {
+    "task": "Write a regular expression that matches valid AWS S3 bucket names. The pattern should enforce S3 naming rules: 3-63 characters, lowercase letters, numbers, hyphens and dots, must start and end with a letter or number, and cannot contain consecutive dots or hyphens at the start."
+  }
+]
