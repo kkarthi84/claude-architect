@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Create a JSON configuration file for an AWS Lambda function that processes S3 events. The configuration should include the function name, runtime, IAM role ARN, and timeout settings.",
+    "format": "json",
+    "solution_criteria": "Valid JSON structure with required Lambda configuration keys (FunctionName, Runtime, Role, Timeout), proper data types, and realistic AWS resource ARNs"
+  },
+  {
+    "task": "Write a Python function that takes an AWS S3 bucket name and returns a list of all object keys that were modified in the last 24 hours using boto3.",
+    "format": "python",
+    "solution_criteria": "Function uses boto3 S3 client, filters objects by LastModified timestamp, compares against current time minus 24 hours, handles pagination, and returns a list of keys"
+  },
+  {
+    "task": "Create a regular expression that validates AWS IAM role ARNs in the standard format: arn:aws:iam::ACCOUNT-ID:role/ROLE-NAME where ACCOUNT-ID is 12 digits and ROLE-NAME contains alphanumeric characters, hyphens, and underscores.",
+    "format": "regex",
+    "solution_criteria": "Regex correctly matches valid IAM role ARNs, enforces 12-digit account ID, allows alphanumeric/hyphen/underscore in role name, and rejects invalid formats"
+  }
+]
