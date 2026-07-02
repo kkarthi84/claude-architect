@@ -1,0 +1,50 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "72 kg",
+      "goal": "Marathon training with optimal carbohydrate timing around a 90-minute morning run",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan covers all three meals plus pre/post-workout nutrition",
+      "Total daily calories support endurance athlete needs (approximately 2,800-3,200 kcal)",
+      "Carbohydrates comprise 55-65% of total intake with strategic timing before and after the 90-minute run",
+      "Plan is presented in compact, concise format suitable for quick daily reference"
+    ],
+    "task_description": "Write a compact, consice 1 day meal plan for a single athelete",
+    "scenario": "Testing with a high-intensity endurance athlete (marathon runner) requiring elevated carbohydrate and calorie intake with specific timing around training sessions"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "85 kg",
+      "goal": "Muscle gain and strength improvement through weightlifting",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan spans exactly 1 day with 4-5 meals",
+      "Protein distributed across all meals (minimum 25g per meal)",
+      "Pre-workout and post-workout nutrition specified around training session",
+      "Total daily intake supports muscle recovery for strength athlete"
+    ],
+    "task_description": "Write a compact, consice 1 day meal plan for a single athelete",
+    "scenario": "Testing with a strength/power athlete (weightlifter) emphasizing protein distribution across meals and pre/post-workout nutrition for muscle recovery"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "82 kg",
+      "goal": "muscle gain with performance maintenance",
+      "restrictions": "vegan (no animal products)"
+    },
+    "solution_criteria": [
+      "Meal plan is compact and covers one full day",
+      "All meals and snacks use plant-based protein sources only",
+      "Macronutrient targets support muscle gain (approximately 1.6-2.2g protein per kg body weight daily)",
+      "Includes specific food items and portions for practical implementation"
+    ],
+    "task_description": "Write a compact, consice 1 day meal plan for a single athelete",
+    "scenario": "Testing with a sport-specific dietary restriction scenario (vegan bodybuilder) requiring plant-based protein sources while maintaining performance-oriented macronutrient targets"
+  }
+]

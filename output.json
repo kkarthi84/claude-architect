@@ -1,0 +1,65 @@
+[
+  {
+    "output": "# Nutrition Plan for Marathon Training\n\n## Daily Caloric Needs\n- **BMR:** ~1,700 kcal\n- **With training:** ~2,800-3,200 kcal/day (depending on intensity)\n\n---\n\n## Around Your 90-Minute Morning Run\n\n### **Before (30-60 min prior)**\n- **Easily digestible carbs:** 200-300 kcal\n  - Banana + 1 tbsp peanut butter\n  - Or: toast with honey\n  - Or: sports drink (200-300 ml)\n- **Small amount of fluid:** 300-500 ml water\n\n### **During (for 90+ minutes)**\n- **Sports drink or fuel:** 30-60g carbs/hour\n  - 500-1,000 ml isotonic sports drink, OR\n  - Energy gels every 30-45 min\n- **Water:** 150-250 ml every 15-20 min\n\n### **After (within 30-60 min)**\n- **Recovery window:** 40-80g carbs + 15-25g protein\n  - Chocolate milk (500 ml)\n  - Bagel + salmon\n  - Oatmeal with Greek yogurt and berries\n  - Pasta with chicken\n\n---\n\n## Rest of Day (Other 2 meals + snacks)\n\n**Emphasize:**\n- Whole grains (brown rice, oats, whole wheat)\n- Lean proteins (chicken, fish, eggs)\n- Healthy fats (olive oil, avocado)\n- Fruits & vegetables\n- Adequate hydration (3-4L water daily)\n\n**Sample day:** ~2,900 kcal with 50-55% carbs, 15-20% protein, 25-30% fat\n\nWould you like specific meal ideas?",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180 cm",
+        "weight": "72 kg",
+        "goal": "Marathon training with optimal carbohydrate timing around a 90-minute morning run",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Meal plan covers all three meals plus pre/post-workout nutrition",
+        "Total daily calories support endurance athlete needs (approximately 2,800-3,200 kcal)",
+        "Carbohydrates comprise 55-65% of total intake with strategic timing before and after the 90-minute run",
+        "Plan is presented in compact, concise format suitable for quick daily reference"
+      ],
+      "task_description": "Write a compact, consice 1 day meal plan for a single athelete",
+      "scenario": "Testing with a high-intensity endurance athlete (marathon runner) requiring elevated carbohydrate and calorie intake with specific timing around training sessions"
+    },
+    "score": 4,
+    "reasoning": "The solution demonstrates strong understanding of endurance athlete nutrition and excellent workout-specific fueling strategy. However, it fundamentally fails the primary task requirement: it does not present a complete, concrete 1-day meal plan. The task explicitly asks for 'a 1 day meal plan' (singular, complete), and the criteria require 'all three meals plus pre/post-workout nutrition.' While the solution addresses pre/post-workout nutrition thoroughly, it only provides vague guidance for the remaining meals rather than a specific, actionable plan. The carbohydrate percentage (50-55%) also falls slightly below the 55-65% criterion. The format is compact but incomplete for practical daily use."
+  },
+  {
+    "output": "# Nutrition Plan for Muscle Gain & Strength\n\n## Caloric Intake\n- **Estimated daily needs:** 2,600-2,800 calories\n- **Target for muscle gain:** 2,800-3,200 calories/day (mild surplus)\n\n## Macronutrient Breakdown\n\n| Macro | Daily Target | Purpose |\n|-------|--------------|---------|\n| **Protein** | 160-170g | Muscle repair & growth |\n| **Carbs** | 300-350g | Energy for training |\n| **Fats** | 85-95g | Hormone production |\n\n## Food Recommendations\n\n### Protein Sources (4-5 servings/day)\n- Chicken breast, lean beef, salmon, eggs\n- Greek yogurt, cottage cheese\n- Whey protein powder\n- Legumes (beans, lentils)\n\n### Carbohydrates (distribute throughout day)\n- **Pre/post-workout:** Oats, rice, pasta, potatoes\n- **General:** Whole grain bread, sweet potatoes, quinoa\n- **Around training:** Simple carbs (white rice, bananas, dextrose)\n\n### Healthy Fats\n- Olive oil, avocados, nuts\n- Fatty fish (omega-3s)\n- Nut butters\n\n### Vegetables & Fruits\n- Aim for 3-4 servings daily\n- All types; prioritize leafy greens\n\n## Key Habits\n\u2713 Eat 3-4 hours between meals or every 3-4 hours  \n\u2713 Prioritize post-workout nutrition (protein + carbs within 2 hours)  \n\u2713 Stay hydrated (3-4 liters water daily)  \n\u2713 Track calories for 2-3 weeks to assess progress\n\nWould you like a sample meal plan?",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180 cm",
+        "weight": "85 kg",
+        "goal": "Muscle gain and strength improvement through weightlifting",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Meal plan spans exactly 1 day with 4-5 meals",
+        "Protein distributed across all meals (minimum 25g per meal)",
+        "Pre-workout and post-workout nutrition specified around training session",
+        "Total daily intake supports muscle recovery for strength athlete"
+      ],
+      "task_description": "Write a compact, consice 1 day meal plan for a single athelete",
+      "scenario": "Testing with a strength/power athlete (weightlifter) emphasizing protein distribution across meals and pre/post-workout nutrition for muscle recovery"
+    },
+    "score": 2,
+    "reasoning": "The solution fails to meet the core mandatory requirement of providing a compact, concise 1-day meal plan spanning exactly 4-5 meals. Instead, it delivers general nutritional framework and recommendations without the specific meal structure requested. Additionally, pre-workout/post-workout nutrition timing is not specified around an actual training session. While the nutritional science is sound, the solution is fundamentally incomplete as it does not deliver the requested meal plan format. The task explicitly asks for a '1 day meal plan' and the criteria require '4-5 meals' with specific protein distribution - neither is provided."
+  },
+  {
+    "output": "# Nutrition Plan for Vegan Muscle Gain\n\n## Caloric Intake\n- **Estimated TDEE**: ~2,400-2,600 calories/day\n- **Target**: 2,700-2,900 calories/day (slight surplus for muscle gain)\n\n## Macronutrient Targets\n- **Protein**: 1.6-2.2g per kg = **130-180g/day** (critical for vegans)\n- **Carbs**: 4-6g per kg = **310-465g/day** (for performance)\n- **Fats**: 0.8-1.2g per kg = **65-100g/day**\n\n## Key Protein Sources\n- **Legumes**: lentils, chickpeas, beans (combine with grains for complete amino acids)\n- **Soy products**: tofu, tempeh, edamame, soy milk\n- **Grains**: quinoa, buckwheat, oats\n- **Nuts & seeds**: hemp seeds, pumpkin seeds, peanuts\n- **Vegan protein powder**: pea, hemp, or blended plant proteins\n\n## Sample Daily Framework\n- **Breakfast**: Oatmeal + hemp seeds + almond butter + berries\n- **Snack**: Hummus + vegetables + nuts\n- **Lunch**: Quinoa + lentil curry + spinach\n- **Pre-workout**: Banana + almond butter\n- **Dinner**: Tofu stir-fry + brown rice + broccoli\n- **Snack**: Vegan protein shake\n\n## Critical Considerations\n\u2713 **B12 supplement** (essential for vegans)  \n\u2713 **Varied legume/grain combinations** for complete amino acids  \n\u2713 **Zinc & iron tracking** (consider supplementation)  \n\u2713 **Creatine monohydrate** supplement (vegan-friendly, supports performance)\n\nWould you like specific meal plans or recipes?",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178 cm",
+        "weight": "82 kg",
+        "goal": "muscle gain with performance maintenance",
+        "restrictions": "vegan (no animal products)"
+      },
+      "solution_criteria": [
+        "Meal plan is compact and covers one full day",
+        "All meals and snacks use plant-based protein sources only",
+        "Macronutrient targets support muscle gain (approximately 1.6-2.2g protein per kg body weight daily)",
+        "Includes specific food items and portions for practical implementation"
+      ],
+      "task_description": "Write a compact, consice 1 day meal plan for a single athelete",
+      "scenario": "Testing with a sport-specific dietary restriction scenario (vegan bodybuilder) requiring plant-based protein sources while maintaining performance-oriented macronutrient targets"
+    },
+    "score": 4,
+    "reasoning": "The solution demonstrates strong nutritional knowledge and correctly addresses the vegan constraint and muscle-gain macronutrient targets. However, it fundamentally fails the primary requirement of providing a 'compact, concise 1 day meal plan' with 'specific food items and portions for practical implementation.' The solution provides only a framework with meal suggestions rather than an actual meal plan with quantities. For example, 'Oatmeal + hemp seeds + almond butter + berries' lacks portion sizes (how much oatmeal? how many grams of hemp seeds?), making it impossible for the athlete to implement practically. A true meal plan would specify: '50g oats + 15g hemp seeds + 20g almond butter + 100g berries' for each meal. The solution reads more as educational guidance than a usable daily meal plan."
+  }
+]
